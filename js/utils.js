@@ -472,7 +472,7 @@
       var n = e.target.getAttribute('data-command');
       switch(n) {
       case 'toc':
-        this._update("table-of-contents"); break;
+        this._update("landing-slide"); break;
       case 'resources':
         break;
       case 'notes':
